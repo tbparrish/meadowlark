@@ -6,10 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbparrish/meadowlark.git"
+  },
   "author": "Terry Parrish",
   "license": "MIT",
   "dependencies": {
     "express": "^4.4.2",
     "express3-handlebars": "^0.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
   }
 }
